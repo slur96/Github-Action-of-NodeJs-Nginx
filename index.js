@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, World! Welcome to the cicd pipeline'); // Send a response to the client
+    res.send('Hello, World! My name is Samuel Addo and I am a DevOps Engineer'); // Send a response to the client
 });
 app.get('/products', (req, res) => {
     // Assuming products are stored in an array called 'products'
